@@ -2,6 +2,10 @@
 
 A React and TypeScript application that loads supported currencies from CurrencyBeacon and converts an amount when the user submits the form. Bootstrap supplies the interface styling, and Vite runs the local development server and builds the application.
 
+## Layout and styling
+
+Bootstrap is used to lay out and style the application. Its containers, cards, navigation, spacing utilities, form controls, buttons, and alerts provide a consistent interface. Bootstrap CSS and its JavaScript bundle are imported in `src/App.tsx`; the layout is composed using Bootstrap classes in the React components.
+
 ## Run locally
 
 Prerequisites: npm, a CurrencyBeacon API key with access to the currencies and conversion endpoints, and a Node.js version supported by the installed Vite release (`^20.19.0` or `>=22.12.0`).
